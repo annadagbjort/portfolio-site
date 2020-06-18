@@ -1,26 +1,45 @@
-:root {
+:root {}
 
-}
-
-body{
+body {
     padding: 0 10vw;
 }
 
-.logo {
-    width:200px;
-margin-right:auto;
-    margin-left:auto;}
+.hide {
+    display: none;
+}
 
-.portfolioMain{
-    display:grid;
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+.logo {
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolioMain {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .portfolioItem {
     width: 35vw;
     height: 200px;
     background: pink;
-/*
+    /*
     margin-right:auto;
     margin-left:auto;
 */
@@ -34,4 +53,3 @@ margin-right:auto;
 .portfolioItem.myk {
     height: 300px;
 }
-
